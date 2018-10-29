@@ -40,7 +40,6 @@ namespace PlumbingBackflowDeviceInspectionsClientSample
             {
                 Application = new Application
                 {
-                    DeviceMake = "string",
                     ModelNumber = "string",
                     SerialNumber = "string",
                     PlumbingApplicationNumber = "string",

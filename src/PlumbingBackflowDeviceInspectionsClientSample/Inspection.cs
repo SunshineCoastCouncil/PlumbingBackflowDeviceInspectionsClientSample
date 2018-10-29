@@ -67,8 +67,6 @@ namespace PlumbingBackflowDeviceInspectionsClientSample
 
     public class Application
     {
-        [JsonProperty("deviceMake")]
-        public string DeviceMake { get; set; }
 
         [JsonProperty("modelNumber")]
         public string ModelNumber { get; set; }
