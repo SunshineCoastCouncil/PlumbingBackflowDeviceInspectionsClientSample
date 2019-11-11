@@ -80,6 +80,18 @@ namespace PlumbingBackflowDeviceInspectionsClientSample
         [JsonProperty("backFlowDeviceReferenceNumber")]
         public string BackFlowDeviceReferenceNumber { get; set; }
 
+        [JsonProperty("byPassModelNumber")]
+        public string ByPassModelNumber { get; set; }
+
+        [JsonProperty("byPassSerialNumber")]
+        public string ByPassSerialNumber { get; set; }
+
+        [JsonProperty("byPassPlumbingApplicationNumber")]
+        public string ByPassPlumbingApplicationNumber { get; set; }
+
+        [JsonProperty("byPassBackFlowDeviceReferenceNumber")]
+        public string ByPassBackFlowDeviceReferenceNumber { get; set; }
+
         [JsonProperty("address")]
         public string Address { get; set; }
 
@@ -100,6 +112,12 @@ namespace PlumbingBackflowDeviceInspectionsClientSample
 
         [JsonProperty("makeDescription")]
         public string MakeDescription { get; set; }
+
+        [JsonProperty("byPassMakeId")]
+        public string ByPassMakeId { get; set; }
+
+        [JsonProperty("byPassMakeDescription")]
+        public string ByPassMakeDescription { get; set; }
 
         [JsonProperty("typeId")]
         public string TypeId { get; set; }
